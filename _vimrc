@@ -239,7 +239,7 @@ map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""
 
-let g:ycm_global_ycm_extra_conf = 'C:\Users\arthur\vimfiles\bundle\YouCompleteMe\third_party\ycmd\cpp\ycm\.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = 'C:\Users\ghzha\vimfiles\bundle\YouCompleteMe\third_party\ycmd\cpp\ycm\.ycm_extra_conf.py'
 let g:syntastic_always_populate_loc_list = 1
 nmap <F3> :YcmDiags<CR>
 "YcmForceCompileAndDiagnostics"  
