@@ -34,27 +34,21 @@
 
 有如下快捷键映射：
 
-"""""""""""""""""""""""""""""""""""""""""""""""
-" 快捷键：
-"""""""""""""""""""""""""""""""""""""""""""""""
-" 在插入模式中<ESC>映射为"kj"键
-"
-" C-e 打开NerdTree
-" C-N 下一个Buffer
-" C-P 上一个Buffer
-" C-]查看函数原型
-" C-t回到原处
-"
-" <Leader>映射为","键
-" <Leader>tt 打开TagBar
-"
-" F1为中文帮助文件
-" F2为Syntastic的开关
-" F3为显示YCM错误列表
-" F4为修补python代码风格错误
-" F9为编译运行C++，运行结束后会删除可执行文件
-" F10为运行python
-" F12为生成Tag文件
+* 在插入模式中<ESC>映射为"kj"键
+* C-e 打开NerdTree
+* C-N 下一个Buffer
+* C-P 上一个Buffer
+* C-]查看函数原型
+* C-t回到原处
+* <Leader>映射为","键
+* <Leader>tt 打开TagBar
+* F1为中文帮助文件
+* F2为Syntastic的开关
+* F3为显示YCM错误列表
+* F4为修补python代码风格错误
+* F9为编译运行C++，运行结束后会删除可执行文件
+* F10为运行python
+* F12为生成Tag文件
 
 
 
@@ -66,7 +60,7 @@
 * 安装mingw-w64-install.exe，注意，由于我们要编译64位的vim，所以不能用普通的mingw而要用mingw-w64，安装过程中会自动配置PATH。
 * 解压ctags58.zip到任意文件夹，，并配置环境变量PATH，如PATH += C:\Tools\ctags58。
 * 安装7z1604-x64.exe
-* 安装vs_community__949617490.1488904476.exe，配置如图。并配置环境变量，PATH += C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX64\x64。![VS安装配置](vs_config.png)
+* 安装vs_community__949617490.1488904476.exe，配置如图。并配置环境变量，PATH += C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX64\x64。![VS安装配置](tutor_pic/vs_config.png)
 * 安装cmake-3.7.2-win64-x64.msi，安装过程中会自动配置PATH
 * 安装Inconsolata，进入Inconsolata文件夹，点击Inconsolata for Powerline.otf选择安装
 * 安装git，并设置环境变量PATH，如PATH += C:\Program Files\Git\cmd
@@ -139,7 +133,7 @@
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
   ```
 
-* 修改_vimrc中如图处为自己的路径。![Vundle](vundle.png)
+* 修改_vimrc中如图处为自己的路径。![Vundle](tutor_pic/vundle.png)
 
 * 打开gvim，运行 `:PluginInstall`
 
